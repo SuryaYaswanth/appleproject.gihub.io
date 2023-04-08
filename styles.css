@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+.container{
+    width: 100%;
+    background-color:white;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.navi{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 9vh;
+    background-color: rgba(63, 65, 68, 0.829);
+    position:fixed;
+    width: 100%;
+    
+    
+    
+
+}
+.navi a{
+    text-decoration: none;
+    color: rgb(197, 189, 189);
+    
+    
+    
+}
+.navlink{
+    margin: 20px;
+    font-size: small;
+    
+}
+.hero{
+    background-color: rgb(255, 249, 249);
+    height: 9vh;
+}
+.blw-navi{
+    
+    display: flex;
+    background-color: rgb(255, 249, 249);
+    justify-content:center;
+    height: 9vh;
+    font-size: 1em;
+    align-items: center;
+}
+
+.blw-navi p{
+  font-size: small;
+}
+.blw-navi a{
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center; 
+    text-align: center;
+    width: 100%;
+    height: 440px;
+}
+.banner h1{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+.banner h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 1rem;
+}
+.banner .content img{
+    width: 28vw;
+
+    
+}
+.content{
+    height: 6vh;
+}
+.ban-link{
+    display: flex;
+    justify-content: center;
+    
+}
+.ban-link a{
+    line-height: 4;
+    font-size: small;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: rgb(0, 162, 255);
+}
+.banner-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: red;
+    background-color: white;
+    height: 100vh;
+    background-image: url(../iphone-14-1-d.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.watch{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../Component\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+   
+    background-position: 50%;
+}
+.link{
+    display: flex;
+    padding-top: 170px;
+    
+}
+.link a{
+    font-size:large;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: rgb(0, 162, 255);
+}
+    
+.prod{
+    display: flex;
+    height: 400px;
+    
+    justify-content: center;
+
+}
+.prod .left{
+    flex-basis: 50%;
+    background-color: black;
+    margin: 8px 8px;
+    text-align: center;
+}
+.prod .left h2{
+    font-weight: 500;
+    color: white;
+}
+.prod .left h3{
+    font-weight:400;
+    color: white;
+}
+.prod .left a{
+    font-weight:400;
+    color: rgb(13, 116, 185);
+    line-height: 2;
+    text-decoration: none;
+}
+.prod .ryt{
+    flex-basis: 50%;
+    text-align: center;
+    margin: 8px 8px;
+    background-color: rgb(255, 255, 255);
+
+}
+.prod .ryt h1{
+    padding-top: 40px;
+    font-weight: 500;
+}
+.prod .ryt h2{
+    font-size: large;
+    font-weight: 500;
+}
+.prod .ryt a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(13, 116, 185);
+    line-height: 2;
+}
+.prod-cnt{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    
+}
+.prdlft{
+    flex-basis: 50%;
+    background-color: black;
+    margin: 8px 0px 8px 8px;
+    text-align: center;
+    color: white;
+}
+.prdryt{
+  flex-basis: 50%;
+  background-color: black;
+  margin: 8px 8px;
+  text-align: center;
+}
+
+.prdlft h1{
+    color:white;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 40px;
+
+}
+.prdlft img{
+    padding-top: 50px;
+}
+.prdlft a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(13, 116, 185);
+    line-height: 2;
+}
+.prdryt h1{
+    padding-top: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.prdryt a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(13, 116, 185);
+    line-height: 2;
+}
+.prdryt h2{
+    color: white;
+    font-weight: 300;
+    font-size: large;
+}
+.mac{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.mac-lft{
+    flex-basis: 50%;
+    background-color: black;
+    margin: 8px 8px;
+    text-align: center;
+    color: white;
+
+}
+.mac-lft h1{
+    padding-top: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.mac-lft img{
+    padding-top: 40px;
+}
+.mac-lft h2{
+    font-size: large;
+    font-weight: 500;
+}
+.mac-lft a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(13, 116, 185);
+    line-height: 2;
+
+}
+.mac-ryt{
+    flex-basis: 50%;
+    background-color:white;
+    margin: 8px 8px;
+    text-align: center;
+}
+.mac-ryt h1{
+    padding-top: 30px;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.mac-ryt h3{
+    color: rgb(230, 80, 26);
+    
+}
+.mac-ryt h2{
+    font-size: large;
+    font-weight: 500;
+    
+}
+.mac-ryt a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(13, 116, 185);
+    line-height: 2;
+    
+}
+.mac-ryt img{
+    padding-top: 70px;
+}
+.foot{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(210, 213, 216);
+}
+.foot section{
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+    font-size: small;
+    line-height: 1.5;
+}
+.margin{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.f1{
+    flex-basis: 15%;
+    font-size: small;
+    line-height: 1.5;
+    
+
+}
+.f2{
+    flex-basis: 15%;
+    font-size: small
+    
+}
+.f3{
+    flex-basis: 15%;
+    font-size: small
+   
+}
+.f4{
+    flex-basis: 15%;
+    font-size: small
+    
+}
+.f5{
+    flex-basis: 15%;
+    font-size: small
+   
+}
+.margin .f1 h1{
+    font-weight: 200;
+    color: rgba(44, 44, 44, 0.897);
+}
+.margin a{
+    text-decoration: none;
+    color: rgba(44, 44, 44, 0.897);
+}
+.margin {
+    cursor: pointer;
+}
